@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Channels</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Live Channels</h1>
+    </header>
+
+    <main>
+        <ul id="channel-list">
+            <!-- Example Channel List Item -->
+            <li class="channel">
+                <a href="#" data-stream-url="LINK_DO_STREAM_AQUI" class="channel-link">
+                    Canal 1
+                </a>
+            </li>
+            <li class="channel">
+                <a href="#" data-stream-url="LINK_DO_STREAM_AQUI" class="channel-link">
+                    Canal 2
+                </a>
+            </li>
+            <!-- Adicione mais canais conforme necessário -->
+        </ul>
+    </main>
+
+    <div id="player-container" style="display: none;">
+        <button id="close-player">X</button>
+        <iframe id="video-player" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
